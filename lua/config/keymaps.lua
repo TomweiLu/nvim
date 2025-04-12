@@ -42,7 +42,7 @@ function RunCode()
   vim.cmd("write")
   local filetype = vim.bo.filetype
   local filename = vim.fn.expand('%:t')
-  local output = vim.fn.expand('%:r')
+  local output = vim.fn.expand('%:t:r')
   local cmd = ''
 
   if filetype == 'c' then
