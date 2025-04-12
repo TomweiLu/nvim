@@ -1,0 +1,16 @@
+lazy-lock.json
+lua/plugins/package-lock.json
+lua/plugins/package.json
+
+# 忽略 swap / undo / backup / cache
+*.swp
+*.swo
+*.undo
+*.bak
+.cache/
+log/
+session/
+
+# 忽略 Lua LSP 自動產物
+lua-language-server/
+mason/
